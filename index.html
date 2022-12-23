@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--Logo Search login and shopping card-->
+<div class="navbar-top">
+    <div class="container-fluid">
+        <div class="header-top">
+            <!--Logo-->
+            <div class="logo-box">
+                <a href="#"><img src="" alt="Logo"></a>
+            </div>
+            <!--Search-->
+            <div class="search-box">
+                <form class="d-flex">
+                    <input type="search" placeholder="جستجو" aria-label="جستجو">
+                    <button class="search-btn" type="submit"><span><i class="fa fa-search"></i></span></button>
+                </form>
+            </div>
+            <!--Login And Shopping Card-->
+            <div class="info-box">
+                <div class="account-section">
+                    <a href="register.html">
+                        <span><i class="fas fa-user"></i></span>
+                        <span class="account-info">
+                                ورود / ثبت نام
+                            </span></a>
+
+                </div>
+                <div class="checkout-box">
+                    <a href="#">
+                        <span><i class="fa fa-shopping-cart"></i></span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger text-white">
+                                4
+
+                            </span>
+
+                    </a>
+                    <div class="custom-menu">
+                        <div id="shopping-cart">
+                            <div class="shopping-cart-list">
+                                <div class="product-widget">
+                                    <div class="product-thumb">
+                                        <img src="images/product01.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">900000 تومان <span class="qty">2 عدد</span></h3>
+                                        <h2 class="product-name"><a href="#">نام محصول در اینجا قرار میگیرد</a></h2>
+                                    </div>
+                                    <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                </div>
+                                <div class="product-widget">
+                                    <div class="product-thumb">
+                                        <img src="images/product02.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <h3 class="product-price">800000 تومان <span class="qty">2 عدد</span></h3>
+                                        <h2 class="product-name"><a href="#">نام محصول در اینجا قرار میگیرد</a></h2>
+                                    </div>
+                                    <button class="cancel-btn"><i class="fa fa-trash"></i></button>
+                                </div>
+                            </div>
+                            <div class="shopping-cart-btns">
+                                <button class="btn btn-dark">مشاهده</button>
+                                <button class="btn btn-info text-white">پرداخت
+                                    <i class="fa fa-arrow-circle-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------- menu links header --------->
+<nav class="navbar navbar-expand-lg navbar-light nav-Menu-links">
+    <div class="container-fluid">
+        <!--Mobile Menu Btn-->
+        <label class="hamburger-toggle">
+
+            <input class="navbar-toggler collapsed btnMenu" type="checkbox" id="ckeck" data-bs-toggle="collapse"
+                   data-bs-target="#navbar-content">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+        </label>
+
+        <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="icon_house_alt"></i>
+                        صفحه اصلی
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"><i class="icon_bag_alt"></i>
+                        فروشگاه
+                    </a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega position-static">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                       data-bs-auto-close="outside">لوازم خانگی</a>
+                    <div class="dropdown-menu mega-menu shadow">
+                        <div class="mega-content px-4">
+                            <div class="mega-box">
+                                <div class="mega-list">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-4 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mega-img shadow-one">
+                                    <img src="images/bg-1.jpg" class="img-menu" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-mega position-static">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                       data-bs-auto-close="outside">لوازم خانگی 2</a>
+                    <div class="dropdown-menu shadow">
+                        <div class="mega-content px-4">
+
+                            <div class="mega-box">
+                                <div class="mega-list">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-4 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mega-img shadow-one">
+                                    <img src="images/bg-2.jpg" class="img-menu" alt="image">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown dropdown-mega position-static">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                       data-bs-auto-close="outside">لوازم خانگی 3</a>
+                    <div class="dropdown-menu shadow">
+                        <div class="mega-content px-4">
+
+                            <div class="mega-box">
+                                <div class="mega-list">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-sm-4 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-4">
+                                            <h5>عنوان دسته</h5>
+                                            <div class="list-group">
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                                <a class="list-item" href="#">نام محصول</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mega-img shadow-one">
+                                    <img src="images/bg-4.jpg" class="img-menu" alt="image">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<header class="my-4">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-12 ">
+                <div id="main-slider" class="carousel slide main-slider" data-bs-ride="carousel">
+<!--                    <div class="carousel-indicators carousel-indicators-change bg-gradient">-->
+<!--                        <img src="assets/img/bg-1.jpg" data-bs-target="#main-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">-->
+<!--                        <img src="assets/img/bg-2.jpg" data-bs-target="#main-slider" data-bs-slide-to="1" aria-label="Slide 2">-->
+<!--                        <img src="assets/img/bg-4.jpg" data-bs-target="#main-slider" data-bs-slide-to="2" aria-label="Slide 3">-->
+<!--                    </div>-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/bg-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/bg-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/bg-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#main-slider"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-info position-absolute start-0 h-100" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#main-slider"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-info position-absolute h-100" aria-hidden="true" style="left: 0"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-5 col-sm-12">
+                <div id="p-slider" class="carousel slide main-slider" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators carousel-indicators-change bg-gradient">
+                        <img src="assets/img/product_1.png" data-bs-target="#p-slider" data-bs-slide-to="0"
+                             class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="assets/img/product_2.png" data-bs-target="#p-slider" data-bs-slide-to="1"
+                             aria-label="Slide 2">
+                        <img src="assets/img/product_3.png" data-bs-target="#p-slider" data-bs-slide-to="2"
+                             aria-label="Slide 3">
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- fashion section start -->
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="discount-product">
+                                    <div class="shadow-post "></div>
+                                    <h4 class="shirt_text">لباس مردانه</h4>
+                                    <p class="price_text">قیمت <span style="color: #262626;">250000 تومان</span></p>
+                                    <div class="tshirt_img"><img src="assets/img/product_1.png"></div>
+
+                                    <div class="btns">
+                                        <a href="#" class="style_btn">
+
+                                            <i class="fas fa-heart vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            <i class="fas fa-exchange-alt vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            افزودن به سبد
+                                            <i class="fas fa-shopping-cart vip-btn"></i>
+                                        </a>
+                                    </div>
+
+                                    <div class="countdown-container">
+                                        <div class="countdown-el days-c">
+                                            <p class="big-text days" id="days">0</p>
+                                            <span>روز</span>
+                                        </div>
+                                        <div class="countdown-el hours-c">
+                                            <p class="big-text hours" id="hours">0</p>
+                                            <span>ساعت</span>
+                                        </div>
+                                        <div class="countdown-el mins-c">
+                                            <p class="big-text mins" id="mins">0</p>
+                                            <span>دقیقه</span>
+                                        </div>
+                                        <div class="countdown-el seconds-c">
+                                            <p class="big-text seconds" id="seconds">0</p>
+                                            <span>ثانیه</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- fashion section end -->
+                        </div>
+                        <div class="carousel-item">
+                            <!-- fashion section start -->
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="discount-product">
+                                    <div class="shadow-post "></div>
+                                    <h4 class="shirt_text">لباس مردانه</h4>
+                                    <p class="price_text">قیمت <span style="color: #262626;">250000 تومان</span></p>
+                                    <div class="tshirt_img"><img src="assets/img/product_2.png"></div>
+
+                                    <div class="btns">
+                                        <a href="#" class="style_btn">
+
+                                            <i class="fas fa-heart vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            <i class="fas fa-exchange-alt vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            افزودن به سبد
+                                            <i class="fas fa-shopping-cart vip-btn"></i>
+                                        </a>
+                                    </div>
+                                    <div class="countdown-container">
+                                        <div class="countdown-el days-c">
+                                            <p class="big-text" id="days2">0</p>
+                                            <span>روز</span>
+                                        </div>
+                                        <div class="countdown-el hours-c">
+                                            <p class="big-text" id="hours2">0</p>
+                                            <span>ساعت</span>
+                                        </div>
+                                        <div class="countdown-el mins-c">
+                                            <p class="big-text" id="mins2">0</p>
+                                            <span>دقیقه</span>
+                                        </div>
+                                        <div class="countdown-el seconds-c">
+                                            <p class="big-text" id="seconds2">0</p>
+                                            <span>ثانیه</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fashion section end -->
+                        </div>
+                        <div class="carousel-item">
+                            <!-- fashion section start -->
+                            <div class="col-lg-12 col-sm-12">
+                                <div class="discount-product">
+                                    <div class="shadow-post "></div>
+                                    <h4 class="shirt_text">لباس زنانه</h4>
+                                    <p class="price_text">قیمت <span style="color: #262626;">250000 تومان</span></p>
+                                    <div class="tshirt_img"><img src="assets/img/product_3.png"></div>
+
+                                    <div class="btns">
+                                        <a href="#" class="style_btn">
+
+                                            <i class="fas fa-heart vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            <i class="fas fa-exchange-alt vip-btn"></i>
+                                        </a>
+                                        <a href="#" class="style_btn">
+                                            افزودن به سبد
+                                            <i class="fas fa-shopping-cart vip-btn"></i>
+                                        </a>
+                                    </div>
+                                    <div class="countdown-container">
+                                        <div class="countdown-el days-c">
+                                            <p class="big-text" id="days3">0</p>
+                                            <span>روز</span>
+                                        </div>
+                                        <div class="countdown-el hours-c">
+                                            <p class="big-text" id="hours3">0</p>
+                                            <span>ساعت</span>
+                                        </div>
+                                        <div class="countdown-el mins-c">
+                                            <p class="big-text" id="mins3">0</p>
+                                            <span>دقیقه</span>
+                                        </div>
+                                        <div class="countdown-el seconds-c">
+                                            <p class="big-text" id="seconds3">0</p>
+                                            <span>ثانیه</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fashion section end -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--Scripts-->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="node_modules/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="assets/js/nav.js"></script>
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/countdown.js"></script>
+</body>
+</html>
